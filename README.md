@@ -1,5 +1,6 @@
 # news-free-hosts
 A host file that extents a common list to include a list of blocked news sites.
+Forked from [Steven Black's hosts file project](https://github.com/StevenBlack/hosts).
 
 ## Installation on Mac/Linux
 Copy ```hosts``` to ```\etc\hosts```.
