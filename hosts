@@ -1,12 +1,12 @@
-# This hosts file is a merged collection of hosts from reputable sources,
+﻿# This hosts file is a merged collection of hosts from reputable sources,
 # with a dash of crowd sourcing via Github
 #
-# Date: March 18 2018
+# Date: March 19 2018
 # Extensions added to this file: fakenews, gambling, porn, social
-# Number of unique domains: 68,916
 #
-# Fetch the latest version of this file: https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling-porn-social/hosts
-# Project home page: https://github.com/StevenBlack/hosts
+# TB: Added news websites for US, UK, and German news.
+#
+# Forked from: https://github.com/StevenBlack/hosts
 #
 # ===============================================================
 
@@ -21,33 +21,15 @@ ff02::2 ip6-allrouters
 0.0.0.0 0.0.0.0
 
 # Custom host records are listed here.
-0.0.0.0 news.google.com
-0.0.0.0 bing.com
-0.0.0.0 cbs.com
-0.0.0.0 www.cbs.com
-0.0.0.0 techcrunch.com
-0.0.0.0 wired.com
-0.0.0.0 www.techcrunch.com
-0.0.0.0 www.wired.com
-0.0.0.0 www.bing.com
-0.0.0.0 google.com/search?q=news
-0.0.0.0 www.google.com/search?q=news
-0.0.0.0 fox13news.com
-0.0.0.0 www.fox13news.com
-0.0.0.0 insider.foxnews.com
-0.0.0.0 ustoday.com
-0.0.0.0 www.ustoday.com
-0.0.0.0 money.cnn.com
-0.0.0.0 www.medicalnewstoday.com
-0.0.0.0 medicalnewstoday.com
-0.0.0.0 www.theguardian.com
-0.0.0.0 theguardian.com
-0.0.0.0 bloomberg.com
-0.0.0.0 www.bloomberg.com
-0.0.0.0 businessinsider.com
-0.0.0.0 www.businessinsider.com
-0.0.0.0 aljazeera.com
-0.0.0.0 www.aljazeera.com
+
+# End of custom host records.
+#=====================================
+
+# Host contributed by Toby Bischoff
+# Other news
+aljazeera.com
+
+# German news
 0.0.0.0 www.bild.de
 0.0.0.0 www.zeit.de
 0.0.0.0 www.faz.net
@@ -78,18 +60,40 @@ ff02::2 ip6-allrouters
 0.0.0.0 www.promiflash.de
 0.0.0.0 www.gala.de
 0.0.0.0 www.vip.de
-0.0.0.0 www.washingtonpost.com
-0.0.0.0 www.sfgate.com
-0.0.0.0 www.forbes.com
-0.0.0.0 www.wsj.com
-0.0.0.0 www.bbc.com
+
+0.0.0.0 bild.de
+0.0.0.0 zeit.de
+0.0.0.0 faz.net
+0.0.0.0 fr-online.de
+0.0.0.0 sueddeutsche.de
+0.0.0.0 taz.de
+0.0.0.0 welt.de
+0.0.0.0 spiegel.de
+0.0.0.0 focus.de
+0.0.0.0 stern.de
+0.0.0.0 rp-online.de
+0.0.0.0 express.de
+0.0.0.0 tz.de
+0.0.0.0 n24.de
+0.0.0.0 morgenpost.de
+0.0.0.0 postillion.de
+0.0.0.0 presseportal.de
+0.0.0.0 reuters.com
+0.0.0.0 waz.de
+0.0.0.0 mercer-online.de
+0.0.0.0 ksta.de
+0.0.0.0 abendblatt.de
+0.0.0.0 shortnews.de
+0.0.0.0 handelsblatt.de
+0.0.0.0 deutsche-wirtschafts-nachrichten.de
+0.0.0.0 manager-magazin.de
+0.0.0.0 finanznachrichten.de
+0.0.0.0 promiflash.de
+0.0.0.0 gala.de
+0.0.0.0 vip.de
+
+# UK news
 0.0.0.0 www.bbc.co.uk
-0.0.0.0 www.espn.com
-0.0.0.0 www.drudgereport.com
-0.0.0.0 www.fivethirtyeight.com
-0.0.0.0 www.slate.com
-0.0.0.0 www.jezebel.com
-0.0.0.0 www.dailybeast.com
 0.0.0.0 www.guardian.co.uk
 0.0.0.0 www.guardian.com
 0.0.0.0 www.dailymail.co.uk
@@ -140,6 +144,82 @@ ff02::2 ip6-allrouters
 0.0.0.0 www.churchnewspaper.com
 0.0.0.0 www.scottishfield.co.uk
 0.0.0.0 www.dailyecho.co.uk
+
+0.0.0.0 bbc.co.uk
+0.0.0.0 guardian.co.uk
+0.0.0.0 guardian.com
+0.0.0.0 dailymail.co.uk
+0.0.0.0 telegraph.co.uk
+0.0.0.0 independent.co.uk
+0.0.0.0 mirror.co.uk
+0.0.0.0 thesun.co.uk
+0.0.0.0 express.co.uk
+0.0.0.0 metro.co.uk
+0.0.0.0 channel4.com
+0.0.0.0 independent.ie
+0.0.0.0 huffingtonpost.co.uk
+0.0.0.0 standard.co.uk
+0.0.0.0 irishtimes.co.uk
+0.0.0.0 machestereveningnews.co.uk
+0.0.0.0 theconversation.co.uk
+0.0.0.0 pinknews.co.uk
+0.0.0.0 wired.co.uk
+0.0.0.0 dailyrecord.co.uk
+0.0.0.0 walesonline.co.uk
+0.0.0.0 thepoke.co.uk
+0.0.0.0 birminghammail.co.uk
+0.0.0.0 belfasttelegraph.co.uk
+0.0.0.0 scotsman.com
+0.0.0.0 thedailymash.co.uk
+0.0.0.0 theweek.co.uk
+0.0.0.0 heraldscotland.com
+0.0.0.0 breaking news.ie
+0.0.0.0 thescottishsun.co.uk
+0.0.0.0 theargus.co.uk
+0.0.0.0 cambridgenews.co.uk
+0.0.0.0 evening times.co.uk
+0.0.0.0 yorkpress.co.uk
+0.0.0.0 thenorethernecho.co.uk
+0.0.0.0 theboltonsnews.co.uk
+0.0.0.0 portsmouth.co.uk
+0.0.0.0 grimsbytelegraph.co.uk
+0.0.0.0 politics.co.uk
+0.0.0.0 belfastlive.co.uk
+0.0.0.0 voice-online.co.uk
+0.0.0.0 news.co.uk
+0.0.0.0 positive.news
+0.0.0.0 thescarboroughnews.co.uk
+0.0.0.0 deadlinenews.co.uk
+0.0.0.0 newsnet.scot
+0.0.0.0 larnetimes.co.uk
+0.0.0.0 colerainetimes.co.uk
+0.0.0.0 churchnewspaper.com
+0.0.0.0 scottishfield.co.uk
+0.0.0.0 dailyecho.co.uk
+
+# US news
+0.0.0.0 www.bing.com
+0.0.0.0 www.cbs.com
+0.0.0.0 www.techcrunch.com
+0.0.0.0 www.wired.com
+0.0.0.0 www.fox13news.com
+0.0.0.0 www.insider.foxnews.com
+0.0.0.0 www.ustoday.com
+0.0.0.0 www.money.cnn.com
+0.0.0.0 www.medicalnewstoday.com
+0.0.0.0 www.bloomberg.com
+0.0.0.0 www.businessinsider.com
+0.0.0.0 www.washingtonpost.com
+0.0.0.0 www.sfgate.com
+0.0.0.0 www.forbes.com
+0.0.0.0 www.wsj.com
+0.0.0.0 www.bbc.com
+0.0.0.0 www.espn.com
+0.0.0.0 www.drudgereport.com
+0.0.0.0 www.fivethirtyeight.com
+0.0.0.0 www.slate.com
+0.0.0.0 www.jezebel.com
+0.0.0.0 www.dailybeast.com
 0.0.0.0 www.news.google.com
 0.0.0.0 www.time.com
 0.0.0.0 www.cnn.com
@@ -246,98 +326,28 @@ ff02::2 ip6-allrouters
 0.0.0.0 www.heartlandnewsfeed.com
 0.0.0.0 www.laindependent.com
 
-0.0.0.0 bild.de
-0.0.0.0 zeit.de
-0.0.0.0 faz.net
-0.0.0.0 fr-online.de
-0.0.0.0 sueddeutsche.de
-0.0.0.0 taz.de
-0.0.0.0 welt.de
-0.0.0.0 spiegel.de
-0.0.0.0 focus.de
-0.0.0.0 stern.de
-0.0.0.0 rp-online.de
-0.0.0.0 express.de
-0.0.0.0 tz.de
-0.0.0.0 n24.de
-0.0.0.0 morgenpost.de
-0.0.0.0 postillion.de
-0.0.0.0 presseportal.de
-0.0.0.0 reuters.com
-0.0.0.0 waz.de
-0.0.0.0 mercer-online.de
-0.0.0.0 ksta.de
-0.0.0.0 abendblatt.de
-0.0.0.0 shortnews.de
-0.0.0.0 handelsblatt.de
-0.0.0.0 deutsche-wirtschafts-nachrichten.de
-0.0.0.0 manager-magazin.de
-0.0.0.0 finanznachrichten.de
-0.0.0.0 promiflash.de
-0.0.0.0 gala.de
-0.0.0.0 vip.de
+0.0.0.0 bing.com
+0.0.0.0 cbs.com
+0.0.0.0 techcrunch.com
+0.0.0.0 wired.com
+0.0.0.0 fox13news.com
+0.0.0.0 insider.foxnews.com
+0.0.0.0 ustoday.com
+0.0.0.0 money.cnn.com
+0.0.0.0 medicalnewstoday.com
+0.0.0.0 bloomberg.com
+0.0.0.0 businessinsider.com
 0.0.0.0 washingtonpost.com
 0.0.0.0 sfgate.com
 0.0.0.0 forbes.com
 0.0.0.0 wsj.com
 0.0.0.0 bbc.com
-0.0.0.0 bbc.co.uk
 0.0.0.0 espn.com
 0.0.0.0 drudgereport.com
 0.0.0.0 fivethirtyeight.com
 0.0.0.0 slate.com
 0.0.0.0 jezebel.com
 0.0.0.0 dailybeast.com
-0.0.0.0 guardian.co.uk
-0.0.0.0 guardian.com
-0.0.0.0 dailymail.co.uk
-0.0.0.0 telegraph.co.uk
-0.0.0.0 independent.co.uk
-0.0.0.0 mirror.co.uk
-0.0.0.0 thesun.co.uk
-0.0.0.0 express.co.uk
-0.0.0.0 metro.co.uk
-0.0.0.0 channel4.com
-0.0.0.0 independent.ie
-0.0.0.0 huffingtonpost.co.uk
-0.0.0.0 standard.co.uk
-0.0.0.0 irishtimes.co.uk
-0.0.0.0 machestereveningnews.co.uk
-0.0.0.0 theconversation.co.uk
-0.0.0.0 pinknews.co.uk
-0.0.0.0 wired.co.uk
-0.0.0.0 dailyrecord.co.uk
-0.0.0.0 walesonline.co.uk
-0.0.0.0 thepoke.co.uk
-0.0.0.0 birminghammail.co.uk
-0.0.0.0 belfasttelegraph.co.uk
-0.0.0.0 scotsman.com
-0.0.0.0 thedailymash.co.uk
-0.0.0.0 theweek.co.uk
-0.0.0.0 heraldscotland.com
-0.0.0.0 breaking news.ie
-0.0.0.0 thescottishsun.co.uk
-0.0.0.0 theargus.co.uk
-0.0.0.0 cambridgenews.co.uk
-0.0.0.0 evening times.co.uk
-0.0.0.0 yorkpress.co.uk
-0.0.0.0 thenorethernecho.co.uk
-0.0.0.0 theboltonsnews.co.uk
-0.0.0.0 portsmouth.co.uk
-0.0.0.0 grimsbytelegraph.co.uk
-0.0.0.0 politics.co.uk
-0.0.0.0 belfastlive.co.uk
-0.0.0.0 voice-online.co.uk
-0.0.0.0 news.co.uk
-0.0.0.0 positive.news
-0.0.0.0 thescarboroughnews.co.uk
-0.0.0.0 deadlinenews.co.uk
-0.0.0.0 newsnet.scot
-0.0.0.0 larnetimes.co.uk
-0.0.0.0 colerainetimes.co.uk
-0.0.0.0 churchnewspaper.com
-0.0.0.0 scottishfield.co.uk
-0.0.0.0 dailyecho.co.uk
 0.0.0.0 news.google.com
 0.0.0.0 time.com
 0.0.0.0 cnn.com
@@ -443,10 +453,6 @@ ff02::2 ip6-allrouters
 0.0.0.0 atlantaintownpaper.com
 0.0.0.0 heartlandnewsfeed.com
 0.0.0.0 laindependent.com
-
-
-# End of custom host records.
-#=====================================
 
 # Hosts contributed by Steven Black
 
