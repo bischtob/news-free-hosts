@@ -30,6 +30,7 @@ ff02::2 ip6-allrouters
 aljazeera.com
 
 # German news
+0.0.0.0 www.tagesschau.de
 0.0.0.0 www.bild.de
 0.0.0.0 www.zeit.de
 0.0.0.0 www.faz.net
@@ -61,6 +62,7 @@ aljazeera.com
 0.0.0.0 www.gala.de
 0.0.0.0 www.vip.de
 
+0.0.0.0 tagesschau.de
 0.0.0.0 bild.de
 0.0.0.0 zeit.de
 0.0.0.0 faz.net
