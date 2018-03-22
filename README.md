@@ -16,6 +16,7 @@ The following news websites are blocked
 aljazeera.com
 
 # German news
+tagesschau.de
 bild.de
 zeit.de
 faz.net
