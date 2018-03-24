@@ -1,5 +1,5 @@
 # news-free-hosts
-A host file that extents a common list to include a list of news sites to be blocked.
+A host file that extends a common list to include a list of news sites to be blocked.
 The whole idea here is to block most news content that distracts one from useful things while being at the computer.
 
 Forked from [Steven Black's hosts file project](https://github.com/StevenBlack/hosts).
