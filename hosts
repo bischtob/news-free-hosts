@@ -27,6 +27,12 @@ ff02::2 ip6-allrouters
 0.0.0.0 aljazeera.com
 0.0.0.0 msn.com
 0.0.0.0 www.msn.com
+0.0.0.0 thehill.com
+0.0.0.0 www.thehill.com
+0.0.0.0 slashdot.com
+0.0.0.0 www.slashdot.com
+0.0.0.0 arstechnica.com
+0.0.0.0 www.arstechnica.com
 
 # German news
 0.0.0.0 www.tagesschau.de
